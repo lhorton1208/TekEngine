@@ -1,0 +1,78 @@
+﻿
+@{
+    ViewBag.Title = "TechnicalConsulting";
+}
+<style>
+    .box1{
+        height:100px;
+    }
+    .imagesize{
+        width: 50%;
+        height: 50%;
+    }
+    .flexbox-container{
+        display: -ms-flexbox;
+        /*display: -webkit-flex;*/
+        display: flex;
+
+        -ms-flex-align: center;
+        -webkit-box-align: center;
+        align-items: center;
+    }
+</style>
+<h2>TekEngine Technical Consulting</h2>
+<div class="container">
+    <div class="row flexbox-container">
+        <div class="col-sm">
+            <img class="img-fluid d-block" src="~/Images/software_engineering.jpg" alt="technical consultant" />
+        </div>
+        <div class="col-sm">
+                <p class="text-muted text-justify font-italic align-middle">
+                    Are you an entrepeneur that loves what you do but do not know how to get your business on-line?
+                    "I know my products and services, but how do I establish a digital store-front to sell my products and increase visibility?"
+                    We can help you figure it out.
+                </p>
+        </div>
+    </div>
+    <div class="row">
+       <div class="col-sm-6">
+           <h3>
+              Technology Solutions
+           </h3>
+           <p>
+               There are certainly cookie cutter sites out there for creating a SPA{Single Page App}. You could also use Facebook
+               but then you have to adhere to their rules and contend with the information they are gathering about you and
+               your business. You could also use one of the free-create-your-own-website services. However, your site is your store front--like a suit it is 
+               a reflection of you. A suit from a department store vs. a tailor-made suit...you get the difference.
+               <div class="col-sm-4 float-right">
+                   <img class="img-fluid float-right" src="~/Images/AdobeStock_43008846_roadmap_Preview.jpeg" alt="Roadmap">
+               </div>
+               There is more to creating a great site than just placing a couple of images and some text. It involves collaboration and design to 
+               ensure it conveys exactly what you are trying to say about your products and services. We will take the time
+               to help you wireframe your site; prototype it and help to ensure it meets your needs. Sometimes a well placed piece of javascript code may be 
+               just what is required to make your site perform like you want. Or perhaps you want to design a back end database schema to house very esoteric data.
+               You don't get that from a cookie-cutter, you get that from people experienced enough to customize your solution. 
+           </p>
+           
+       </div>
+        <div class="col-sm-6">
+
+                    <h3>
+                        Architectural Design
+                    </h3>
+            <p>
+                <div class="col-sm-3 float-left">
+                    <img class="img-fluid float-left" src="~/Images/Architect logo .jpg" alt="Roadmap">
+                </div>
+                Some applications contain enough complexity that architectural design is required. Perhaps there are multiple business locations that need to collaborate.
+               The data stored might have relationships that do not lend themselves neatly into a customers, products and orders table. If you get this step wrong, do not model your data
+               correctly; it will have ramifications to other aspects of your application. From slow queries to the inability to extract accurate reports...you want to get this step right.
+               </p>
+            <p>This is where an architecture team comes in.  We will have the conversations to understand your domain, to model your data correctly
+                and select/create an appropriate front end. You can think of architectural design as the frame or foundation upon which your application resides.
+                Many of us know the consequences of cutting corners on this step in a house/structure. It is the same in software--if your foundation is not solid
+                it will undoubtedly have unintended consequences. Don't paint yourself in a corner, let TekEngine help you create that stable foundation.</p>
+        </div>
+    </div>
+</div>
+
