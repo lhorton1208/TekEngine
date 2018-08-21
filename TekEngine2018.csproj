@@ -215,12 +215,22 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\AdobeStock_129038774_PreviewFinanceConsultant.jpeg" />
     <Content Include="Images\AdobeStock_134936726_Video_HD_Preview.mov" />
+    <Content Include="Images\AdobeStock_135146930_PreviewFinancials2.jpeg" />
+    <Content Include="Images\AdobeStock_190060986_PreviewBusConsulting.jpeg" />
     <Content Include="Images\AdobeStock_43008846_roadmap_Preview.jpeg" />
     <Content Include="Images\AdobeStock_54491875_Preview.jpeg" />
+    <Content Include="Images\AdobeStock_54491875_TekEngineMain.jpeg" />
+    <Content Include="Images\AdobeStock_63165507_PreviewFinancials3.jpeg" />
+    <Content Include="Images\AdobeStock_65288698_PreviewPistonsTES.jpg" />
+    <Content Include="Images\AdobeStock_65288698_PreviewPistons_TE.jpg" />
+    <Content Include="Images\AdobeStock_BusinessConsulting.jpeg" />
     <Content Include="Images\Architect logo .jpg" />
+    <Content Include="Images\BusinessAreasOfFocus.jpg" />
     <Content Include="Images\fotolia_4cylinderPiston.jpg" />
     <Content Include="Images\fotolia_4cylinderPiston_SMALL.jpg" />
+    <Content Include="Images\profitMargins.jpg" />
     <Content Include="Images\software_engineering.jpg" />
     <Content Include="Images\technicalConsultant1.jpg" />
     <Content Include="Images\UserExperiencevDesign.jpeg" />
@@ -280,6 +290,7 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\TechnicalConsulting.cshtml" />
+    <Content Include="Views\Home\ManagerialConsulting.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

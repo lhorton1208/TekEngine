@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - TekEngine LLC</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <style>
+        .navbar-toggler-icon{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-light" role="navigation">
+        <div class="container">
+            <div class="navbar-header ml-0 pl-0">
+                <button type="button" position=""class="navbar-toggler navbar-toggler-right float-left border-0 m-0 py-0" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="navbar-toggle-label"><img class="img-fluid float-left py-0 my-0" style="max-width:25%;max-height:25%" src="~/Images/AdobeStock_65288698_PreviewPistonsTES.jpg" alt="TEPistons" /></span>
+                    <span class="navbar-toggler-icon float-left pl-0 ml-0"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+                        @*@Html.ActionLink("Navigation", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
+
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    </ul>
+                    @Html.Partial("_LoginPartial")
+                </div>          
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - TekEngine LLC</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
