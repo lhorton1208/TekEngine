@@ -23,6 +23,10 @@ namespace TekEngine2018.Controllers
         {
             return View("TechnicalConsulting");
         }
+        public ActionResult Services()
+        {
+            return View("Services");
+        }
         public ActionResult ManagerialConsulting()
         {
             return View("ManagerialConsulting");

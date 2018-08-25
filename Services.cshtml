@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewBag.Title = "Services";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>What Do We Offer?</h2>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm">
+            <p>Our services are broken down into two categories:</p>
+            <ul>
+                <li>Technical Consulting</li>
+                <li>Managerial Consulting</li>
+            </ul>
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button id="button1" class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" >What are Data Migration Services?</button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                                    Data you need to load from one system to another. These services involve data-modeling, ETL{Extract, Transform and
+                                    Load} processes. Dry-Run Testing and Execution.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type=button data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" >What are your Web-Site Development Services?</button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">WebSite development can be site layout/design, wire-framing, site implementation and backend development
+                            including database schema design and implementation.</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button"  data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">How can a small business use your Financials Analysis Services?</button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">Financials Analysis can consist of profit margin/costs analysis. Breakeven Point Analysis. Creation/Consultation on Financial Statements, Business Valuations</div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="col-sm">
+            <img class="container-fluid d-block" src="~/Images/AdobeStock_106126874_PreviewServices.jpeg" alt="OurServices" />
+        </div>
+    </div>
+</div>
+
